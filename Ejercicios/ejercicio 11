@@ -1,0 +1,11 @@
+# Ejercicio 11
+numero = input("Ingrese un número entero de dos dígitos: ")
+digito1 = int(numero[0])
+digito2 = int(numero[1])
+print("Enteros comprendidos entre", digito1, "y", digito2, ":")
+if digito1 < digito2:
+    for i in range(digito1, digito2 + 1):
+        print(i)
+else:
+    for i in range(digito2, digito1 + 1):
+        print(i)

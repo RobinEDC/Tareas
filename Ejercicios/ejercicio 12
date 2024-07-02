@@ -1,0 +1,6 @@
+# Ejercicio 12
+numero = input("Ingrese un número entero de tres dígitos: ")
+if '1' in numero:
+    print("El número tiene el dígito 1.")
+else:
+    print("El número no tiene el dígito 1.")

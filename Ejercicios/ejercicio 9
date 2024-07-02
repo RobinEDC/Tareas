@@ -1,0 +1,4 @@
+# Ejercicio 9
+print("Números terminados en 6 comprendidos entre 25 y 205:")
+for i in range(26, 206, 10):
+    print(i)

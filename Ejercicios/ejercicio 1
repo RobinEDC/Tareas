@@ -1,0 +1,4 @@
+numero = int(input("Ingrese un número entero: "))
+print("Enteros comprendidos entre 1 y", numero, ":")
+for i in range(1, numero + 1):
+    print(i)

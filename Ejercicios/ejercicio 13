@@ -1,0 +1,5 @@
+# Ejercicio 13
+numero = int(input("Ingrese un número entero: "))
+print("Múltiplos de 5 comprendidos entre 1 y", numero, ":")
+for i in range(5, numero + 1, 5):
+    print(i)
